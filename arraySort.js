@@ -1,4 +1,4 @@
-// We can sort an string array by just ysing sort(). It will arrange the elments by alphabetical order
+// We can sort an string array by just using sort(). It will arrange the elments by alphabetical order
 
 let fruits = ["Mango", "Strawberry", "Apple", "Orange", "Banana"]
 console.log(fruits.sort())
