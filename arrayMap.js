@@ -3,19 +3,25 @@
 
 let ageArray = [5,6,8,3];
 //let mapArray= []
-for(let i=0; i< ageArray.length; i++){
-    if(ageArray[i]%2 == 0){
+// for(let i=0; i< ageArray.length; i++){
+//     if(ageArray[i]%2 == 0){
 
-        mapArray.push(ageArray[i]* 2)
+//         mapArray.push(ageArray[i]* 2)
        
-    }
-}
- console.log(mapArray);
+//     }
+// }
+//  console.log(mapArray);
 
  // Instead of using this above for loop , We can do it with map()
  let mapArray = ageArray.map(age=>age*3);
- console.log(mapArray);
+ console.log("mapArray" + mapArray);
  console.log("******************");
+
+ let timesAgeage = ageArray.map((e) => {
+  return e*3
+ })
+ console.log(timesAgeage);
+
 
  // Another example of map function fahrenheit to celsius
 

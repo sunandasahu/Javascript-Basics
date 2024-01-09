@@ -27,7 +27,7 @@ module.exports= class Person{
 }
 // We can create object of the class outside of the class
 
-// Commentingthis so that I am calling this class from another file
+// Commenting this so that I am calling this class from another file
 
 // let person1 = new Person('sunanda','Sahu')
 // // we can access the properties of the class with object of the class
