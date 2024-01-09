@@ -1,3 +1,4 @@
+
 // And when we are just filtering the elements we should use filter()
 let numArray= [12,43,57,78,35,82]
 //print only even number from the array and push to a new array
